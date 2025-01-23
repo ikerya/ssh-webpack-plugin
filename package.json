@@ -1,6 +1,6 @@
 {
-  "name": "ssh-webpack-plugin",
-  "version": "0.1.8",
+  "name": "@ikerya/ssh-webpack-plugin",
+  "version": "1.0.5",
   "description": "Webpack SSH deployment plugin.",
   "main": "index.js",
   "scripts": {
@@ -8,24 +8,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unadlib/ssh-webpack-plugin.git"
+    "url": "git+https://github.com/ikerya/ssh-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
     "SSH",
     "deploy"
   ],
-  "author": "unadlib",
+  "author": "ikerya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/unadlib/ssh-webpack-plugin/issues"
+    "url": "https://github.com/ikerya/ssh-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/unadlib/ssh-webpack-plugin#readme",
+  "homepage": "https://github.com/ikerya/ssh-webpack-plugin#readme",
   "dependencies": {
     "async": "^2.1.2",
     "colors": "^1.1.2",
     "extend": "^3.0.0",
-    "scp2": "^0.5.0",
-    "ssh2": "^0.5.2"
+    "ssh2": "^1.16.0",
+    "ssh2-sftp-client": "^11.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
